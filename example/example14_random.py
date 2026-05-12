@@ -3,8 +3,8 @@ import numpy as np
 # np.random.rand(3) creates
 # 3 random decimal numbers
 
-random-values = np.random.rand(3)
+random_values = np.random.rand(3)
 
 # print random numbers
 print("random values:")
-print(random-values)
+print(random_values)
