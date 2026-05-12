@@ -1,0 +1,17 @@
+import numpy as np
+
+# create array
+numbers = np.array([1, 2, 3, 4, 5])
+
+# np.where(numbers > 3)
+# finds positions where values are greater than 3
+
+result = np.where(numbers > 3)
+
+# print original array
+print("original array:")
+print(numbers)
+
+# print matching positions
+print("where value is greater than 3:")
+print(result)
