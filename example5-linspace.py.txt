@@ -1,0 +1,10 @@
+import numpy as np
+
+# np.linspace() creates 5 evenly spaced
+# numbers between 0 and 1.
+
+values = np.linspace(0, 1, 5)
+
+# print the generated values
+print("evenly spaced values:")
+print(values)

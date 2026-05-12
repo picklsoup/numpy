@@ -1,0 +1,14 @@
+import numpy as np
+
+# create array
+numbers = np.array([1, 2, 3, 4])
+
+# np.sum() adds all values together.
+
+total = np.sum(numbers)
+
+# print results
+print("array values:")
+print(numbers)
+
+print("sum of values:", total)

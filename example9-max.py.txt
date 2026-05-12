@@ -1,0 +1,14 @@
+import numpy as np
+
+# create array
+numbers = np.array([5, 2, 9, 1])
+
+# np.max() finds the largest value
+
+maximum = np.max(numbers)
+
+# print results
+print("array values:")
+print(numbers)
+
+print("largest value:", maximum)
