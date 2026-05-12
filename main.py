@@ -1,5 +1,5 @@
 print("===================================")
-print(" NumPy Library Demonstration")
+print(" NumPy library demonstration !")
 print("===================================")
 
 print("choose an example:")
@@ -22,34 +22,34 @@ print("15 - where()")
 choice = input("enter number: ")
 
 if choice == "1":
-    import examples.example1-array
+    import examples.example1_array
 elif choice == "2":
-    import examples.example2-zeros
+    import examples.example2_zeros
 elif choice == "3":
-    import examples.example3-ones
+    import examples.example3_ones
 elif choice == "4":
-    import examples.example4-arange
+    import examples.example4_arange
 elif choice == "5":
-    import examples.example5-linspace
+    import examples.example5_linspace
 elif choice == "6":
-    import examples.example6-reshape
+    import examples.example6_reshape
 elif choice == "7":
-    import examples.example7-sum
+    import examples.example7_sum
 elif choice == "8":
-    import examples.example8-mean
+    import examples.example8_mean
 elif choice == "9":
-    import examples.example9-max
+    import examples.example9_max
 elif choice == "10":
-    import examples.example10-min
+    import examples.example10_min
 elif choice == "11":
-    import examples.example11-sort
+    import examples.example11_sort
 elif choice == "12":
-    import examples.example12-unique
+    import examples.example12_unique
 elif choice == "13":
-    import examples.example13-dot
+    import examples.example13_dot
 elif choice == "14":
-    import examples.example14-random
+    import examples.example14_random
 elif choice == "15":
-    import examples.example15-where
+    import examples.example15_where
 else:
-    print("Invalid !")
+    print("invalid !")
