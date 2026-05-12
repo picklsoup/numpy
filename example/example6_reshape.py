@@ -6,7 +6,7 @@ numbers = np.array([1, 2, 3, 4, 5, 6])
 # reshape(2,3) changes the array
 # into 2 rows and 3 columns.
 
-reshaped-array = numbers.reshape(2, 3)
+reshaped_array = numbers.reshape(2, 3)
 
 # print original array
 print("original array:")
@@ -14,4 +14,4 @@ print(numbers)
 
 # print reshaped array
 print("reshaped array:")
-print(reshaped-array)
+print(reshaped_array)
