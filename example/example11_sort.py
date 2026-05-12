@@ -5,7 +5,7 @@ numbers = np.array([3, 1, 5, 2, 4])
 
 # np.sort() sorts numbers in ascending order
 
-sorted-numbers = np.sort(numbers)
+sorted_numbers = np.sort(numbers)
 
 # print original array
 print("original array:")
@@ -13,4 +13,4 @@ print(numbers)
 
 # print sorted array
 print("sorted array:")
-print(sorted-numbers)
+print(sorted_numbers)
